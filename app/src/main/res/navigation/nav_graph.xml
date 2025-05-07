@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/locationFragment">
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.lab4.fragments.LocationFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/forecastFragment"
+        android:name="com.example.lab4.fragments.ForecastFragment"
+        android:label="Pronóstico"
+        tools:layout="@layout/fragment_forecast" />
+
+    <fragment
+        android:id="@+id/futureFragment"
+        android:name="com.example.lab4.fragments.FutureFragment"
+        android:label="Futuro"
+        tools:layout="@layout/fragment_future" />
+</navigation>

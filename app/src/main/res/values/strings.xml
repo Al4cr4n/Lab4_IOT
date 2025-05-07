@@ -1,0 +1,13 @@
+<resources>
+    <string name="imagen_clima">Imagen clima</string>
+    <string name="nombre_app">Tele-Weather</string>
+    <string name="elaborado_por">Elaborado por: [Nombre/Código]</string>
+    <string name="app_name">Tele-Weather</string>
+
+
+    <string name="search_hint">Buscar por Ciudad/Distrito</string>
+    <string name="search_location">Ubicación de búsqueda</string>
+    <string name="search_button_desc">Botón para buscar una ciudad o distrito</string>
+    <string name="location_list">Lista de ubicaciones encontradas</string>
+    <string name="search_button">Buscar</string>
+</resources>
